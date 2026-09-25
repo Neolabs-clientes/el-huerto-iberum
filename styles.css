@@ -155,7 +155,7 @@ a{color:inherit}
 .banda-tardeo p{color:#d9d5c9;margin:0 0 30px}
 
 /* ---------- opiniones ---------- */
-.rejilla-opiniones{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:28px}
+.rejilla-opiniones{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
 .opinion{
   margin:0;background:var(--superficie);border:1px solid var(--linea);
   border-top:2px solid var(--oro);padding:30px 28px;
@@ -221,6 +221,7 @@ a{color:inherit}
   .banda-tardeo{padding:74px 0}
   .datos li{grid-template-columns:1fr;gap:2px}
   .horario li{font-size:.9rem}
+  .rejilla-opiniones{grid-template-columns:1fr}
 }
 
 /* en movil los botones van a lo ancho */
